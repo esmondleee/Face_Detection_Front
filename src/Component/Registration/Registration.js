@@ -29,7 +29,7 @@ class Registration extends React.Component {
         }
         else 
         {
-                fetch('https://facedetection-api-grpc.herokuapp.com//register', {
+                fetch('https://facedetection-api-grpc.herokuapp.com/register', {
                 method: 'post',
                 headers: {'Content-type': 'application/json'},
                 body: JSON.stringify({
